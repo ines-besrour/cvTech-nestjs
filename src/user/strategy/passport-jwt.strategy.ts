@@ -6,6 +6,7 @@ import { PayloadInterface } from '../interfaces/payload.interface';
 import { Repository } from 'typeorm';
 import { UserEntity } from '../entites/user.entity';
 import { InjectRepository } from '@nestjs/typeorm';
+import { jwtConstants } from './constants';
 
 
 @Injectable()
@@ -18,7 +19,7 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
     super({
       jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
       ignoreExpiration: false,
-      secretOrKey: configService.get('SECRET'),
+      secretOrKey: jwtConstants.secret,
     });
   }
 
@@ -39,3 +40,4 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
 
   }
 }
+ 

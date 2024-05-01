@@ -15,7 +15,6 @@ import { EventEmitterModule } from '@nestjs/event-emitter';
 import { MailModule } from './mail/mail.module';
 import { APP_INTERCEPTOR } from '@nestjs/core';
 
-
 @Module({
   imports: [
     TodoModule,
