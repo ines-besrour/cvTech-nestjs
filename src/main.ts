@@ -20,6 +20,7 @@ async function bootstrap() {
       'https://aymensellaouti.github.io'
     ]
   }
+  
   app.enableCors(corsOptions);
   app.use(morgan('dev'));
   app.use(
