@@ -20,9 +20,9 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t inesbes/TechNest:latest .
+        run: docker build -t inesbes/technest:latest .
         
       - name: Push Docker image to Docker Hub
-        run: docker push inesbes/TechNest:latest
+        run: docker push inesbes/technest:latest
 
       # Add additional steps for deploying the Docker image to your environment
