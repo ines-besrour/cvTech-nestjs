@@ -1,6 +1,6 @@
 # CVTech-NestJS
 
-A platform for submitting and managing CVs, built with NestJS and PostgreSQL. The platform allows users to submit, track, and evaluate CVs with an intuitive interface.
+A platform for submitting and managing CVs, built with NestJS and MySQL. The platform allows users to submit, track, and evaluate CVs with an intuitive interface.
 
 ## Prerequisites
 
