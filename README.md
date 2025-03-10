@@ -10,7 +10,7 @@ Before running the project, ensure you have the following installed on your mach
 
 ## Project Setup
 
-This project uses **NestJS** for the backend and **MySQL** as the database. Docker is used for containerizing both the application and the database.
+This project uses **NestJS** for the backend and **MySQL** as the database. 
 
 ### 1. Clone the Repository
 
